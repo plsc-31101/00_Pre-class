@@ -128,61 +128,64 @@ See [Install Page](installation) for more information. We will be having an **In
 
 ## Curriculum Outline / Schedule
 
-1. **Oct 1** - Introduction 
-	* course objectives, logistics, overview of programming and reproducible research.
+Week 1: Intro
+* M (No Class)
+* W 9/30: Intro, R Tools
+* L 9/30: Rmarkdown + Homework
+* Assignment: 1 (RMarkdown)
 
-2. **Oct 3** - R Tools 
-    * R Studio, R Markdown, packages, help.
+Week 2: Working with Data in R
+* M 10/5: R Syntax / coding basics
+* W 10/7: Intro to data, basic summaries, Dplyr
+* L 10/7: Workflow (scripts, projects, paths, import/export)
 
-3. **Oct 8** - R Syntax
-     * basic syntax, variables, functions, data types.
+Week 3: Data Munging
+* M 10/12: tidyr
+* W 10/14: Relational data
+* L 10/14: Review
+* Assignment 4 (dplyr, tidyr, relational)
 
-4. **Oct 10** - Data Structures
-    * vectors, lists, factors, matrices, data frames.
+Week 4: Visualization
+* M 10/19: base plots, ggplot
+* W 10/21: hands-on visualization
+* L 10/21: Review
+* Assignment 5 (visualization)
 
-5. **Oct 15** - Indexing and Subsetting
-    * subsetting formats, operators, boolean conditionals, sub-assignment,  applications. 
+Week 5: Base R: Data structures, vectors, factors
+* M 10/26: Data structures 1
+* W 10/28: Data structures 2 (subsettings etc)
+* L 10/28: working with statistical models
+* Assignment 2-3 (will likely have to redo)
 
-6. **Oct 17** - Introduction to Data
-    * common terms, formats, tidy data, storage, import/export, exploratory data analysis.
+-- things start to go off the rails here --
 
-7. **Oct 22** - Manipulating data with `dplyr`
-    * importing data, subsetting, summarizing, and conducting calculations across groups, piping.
+Week 6: R Programming
+* M 11/2: Strings and Regex
+* W 11/4: Programming 1 (functions, if/else)
+* L 11/4: Programming 2 (iteration)
+* Assignment 6
 
-8. **Oct 24** - Tidying data with `tidyr`
-    * tidy data principles, gather, spread, separate, unite
-    
-9. **Oct 29** - Merging and Linking Data 
-    * relational data, keys, joins, missing values.
-    
-10. **Oct 31** - Visualization
-    * base plotting, ggplot, grammar of graphics, writing images.
+Week 7: Data from the Web
+* M 11/9: APIs
+* W 11/11: Webscraping
+* L 11/11: Twitter api
+* Assignment 7
 
-11. **Nov 5** - Hypothesis testing and regressions
-    * models, model objects, stargazer. 
+Week 8: Text analysis
+* M 11/16: Text analysis 1
+* W 11/18: Text analysis 2
+* L 11/18: More text analysis
 
-12. **Nov 7** - Strings and Regex
+Week 9: Workflow + coding habits? Geospatial?
+* M 11/23: 
+* W 11/25 [Day before TG]: 
+* L 11/25 [Day before TG]
 
-13. **Nov 12** - R programming 1
-    * conditional flow, functions.
-    
-14. **Nov 14**  - R Programming 2
-    * iterations, map.
+Week 10: Geospatial? Supervised Learning? Pick your own adventure?
+* M 11/30
+* W 12/2 
+* L 12/2  
 
-15. **Nov 19**  - Collecting data with APIs
-    * requests, RESTful APIs, queries, API libraries.
-   
-16. **Nov 21** - Webscraping
-     * HTML, CSS, In-Browser tools, scraping tools.
-
-17. **Nov 26** - Text analysis 1
-    * preprocessing, DTM, dictionary methods, distinctive words.
-
-18. **Nov 28** - Text analysis 2
-    * supervised vs. unsupervised learning, Vector-space models, topic models.
-
-19. **Dec 3** - Git / Github
-
-20. **Dec 5** - TBD
-
-21. **Dec 10, 1:30-3:30pm** - Final project lightning talks
+Week 11 -- FINALS
+* M 12/7
+* W 12/9
