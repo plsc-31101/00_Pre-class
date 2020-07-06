@@ -16,8 +16,8 @@ output: pdf_document
 * Lab: Wednesdays, 3:00pm - 4:20pm
 
 * Office hours:
-	* Rochelle Terman: Tuesdays, 2:30-4:30, Pick 411.  Sign up here: https://www.wejoinin.com/sheets/offrq
-	* Pete Cuppernull: Mondays, 2:00-4:00, Pick 507
+	* Rochelle Terman: TBD  Sign up here: https://www.wejoinin.com/sheets/offrq
+	* Pete Cuppernull: TBD
 
 ## Course Description
 
