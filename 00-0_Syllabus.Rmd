@@ -34,7 +34,7 @@ By the end of the course, students should be able to:
 * Scrape data from websites and APIs.
 * Parse and analyze text documents.
 * Be familiar with the concepts and tools of a variety of computational social science applications.
-* Master basic Git and GitHub workflows
+* Master basic Git and GitHub workflows.
 * Learn independently and train themselves in a variety of computational applications and tasks through online documentation.
 
 ## Who should take this course
@@ -77,11 +77,11 @@ Students have two options for class projects:
 
 2. __Tool project__: Create a tutorial on a tool we didn't cover in class. Ideas include: bash, LaTex, pandoc, quanteda, tidytext, etc. Post it on github.
 
-Students are required to write a short proposal by __November 7__ (no more than 2 paragraphs) in order to get approval / feedback from the instructors. 
+Students are required to write a short proposal by __November 5__ (no more than 2 paragraphs) in order to get approval / feedback from the instructors. 
 
-Project materials (i.e. a github repo) will be due by end of day on __December 9__. We will specify submission details in class.
+Project materials (i.e. a github repo) will be due by end of day on __December 7__. We will specify submission details in class.
 
-On __December 10__ we will have a **lightning talk session** where students can present their projects in a maximum 5 minute talk.
+On __December 8__ we will have a **lightning talk session** where students can present their projects in a maximum 5 minute talk.
 
 #### Late Policy and Incompletes {-}
 All deadlines are strict. Late assignments will be dropped a full letter grade for each 24 hours past the deadline. Exceptions will be made for students with a documented emergency or illness.
@@ -123,7 +123,7 @@ By the end of the first week, you should install the following software on your 
 
 This requires a computer that can handle all this software. Almost any Mac will do the job. Most Windows machines are fine too if they have enough space and memory.
 
-See [Install Page](installation) for more information. We will be having an **InstallFest on Wednesday, Oct 2 from 9:30 to 11:30am in Pick 504**. for those students experiencing difficulties downloading and installing the requisite software. 
+See [Install Page](installation) for more information. We will be having an **InstallFest on Wednesday, September 30 from 9:30 to 11:30 am in Pick 504**. for those students experiencing difficulties downloading and installing the requisite software. 
 
 
 ## Curriculum Outline / Schedule
