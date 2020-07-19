@@ -19,6 +19,8 @@ To download R, go to [CRAN](https://cran.r-project.org/) (the **C**omprehensive 
 
 A new major version of R comes out once a year, and there are 2-3 minor releases each year. It’s a good idea to update regularly. Upgrading can be a bit of a hassle, especially for major versions, which require you to reinstall all your packages, but putting it off only makes it worse.
 
+For this class, please install R Version 3.6.3. You'll notice that this is not the most recent version, but it is more stable than the newer 4.0. If you use a Mac, this will require at least 10.11 (El Capitan) as your OS; if you use a PC, anything Windows 7 or later will be sufficient.
+
 ## R Studio
 
 To interact with R, we use RStudio. Please install the latest desktop version of [RStudio IDE](http://www.rstudio.com/ide/download/desktop). We will not support RStudio cloud.
