@@ -75,7 +75,7 @@ Students have two options for class projects:
 
 1. __Data project__: Use the tools we learned in class on your own data of interest. Collect and/or clean the data, perform some analysis, and visualize the results. Post your reproducible code on GitHub.
 
-2. __Tool project__: Create a tutorial on a tool we did not cover in class. Ideas include: bash, LaTex, pandoc, quanteda, tidytext, etc. Post it on GitHub.
+2. __Tool project__: Create a tutorial on a tool we did not cover in class. Ideas include: Bash, LaTeX, pandoc, quanteda, tidytext, etc. Post it on GitHub.
 
 Students are required to write a short proposal by __November 5__ (no more than 2 paragraphs) in order to get approval/feedback from the instructors. 
 
