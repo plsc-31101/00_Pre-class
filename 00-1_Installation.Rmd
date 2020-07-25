@@ -106,7 +106,7 @@ While not required, I recommend you install the following tools:
 
 ## Testing Your Installation
 
-If you have trouble with installation, please come to the Installfest on **Wednesday, September 30 from 9:30 am to 11:30 am in Pick 504**.
+If you have trouble with installation, please come to the Installfest on **Wednesday, September 30 from 9:30 am to 11:30 am, on Zoom**.
 
 Open a command line window ('terminal' or, on windows, 'git bash') and enter the following commands (without the $ sign): 
 
