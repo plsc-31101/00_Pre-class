@@ -123,7 +123,7 @@ By the end of the first week, you should install the following software on your 
 
 This requires a computer that can handle all this software. Almost any Mac will do the job. Most Windows machines are fine too if they have enough space and memory.
 
-See [Install Page](installation) for more information. We will be having an __InstallFest on Wednesday, September 30 from 9:30 to 11:30 am in Pick 504__ for those students experiencing difficulties downloading and installing the requisite software. 
+See [Install Page](installation) for more information. We will be having an __InstallFest on Wednesday, September 30 from 9:30 to 11:30 am, on Zoom__ for those students experiencing difficulties downloading and installing the requisite software. 
 
 
 ## Curriculum Outline/Schedule
