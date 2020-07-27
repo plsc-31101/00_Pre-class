@@ -147,22 +147,22 @@ __Week 3__: Data Munging
 
 __Week 4__: Visualization
 * M 10/19: Base plots, ggplot.
-* W 10/21: Hands-on visualization.
+* W 10/21: Working with statistical models.
 * L 10/21: Review.
 * Assignment 5 (visualization).
 
 __Week 5__: Base R: Data Structures, Vectors, Factors
 * M 10/26: Data structures 1.
 * W 10/28: Data structures 2 (subsettings etc.).
-* L 10/28: Working with statistical models.
+* L 10/28: 
 * Assignment 2-3 (will likely have to redo).
 
 -- things start to go off the rails here --
 
 __Week 6__: R Programming
-* M 11/2: Strings and Regex,
-* W 11/4: Programming 1 (functions, if/else).
-* L 11/4: Programming 2 (iteration).
+* M 11/2: Programming 1 (functions, if/else).
+* W 11/4: Programming 2 (iteration).
+* L 11/4: ??
 * Assignment 6.
 
 __Week 7__: Data From the Web
@@ -176,9 +176,9 @@ __Week 8__: Text Analysis
 * W 11/18: Text analysis 2.
 * L 11/18: More text analysis.
 
-__Week 9__: Workflow + Coding Habits? Geospatial?
+__Week 9__: Strings and Regex,
 * M 11/23: 
-* W 11/25 [Day before TG]: 
+* W 11/25  
 * L 11/25 [Day before TG]:
 
 __Week 10__: Geospatial? Supervised Learning? Pick Your Own Adventure?
