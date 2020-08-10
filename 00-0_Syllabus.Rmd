@@ -157,28 +157,26 @@ __Week 5__: Base R: Data Structures, Vectors, Factors
 * L 10/28: 
 * Assignment 2-3 (will likely have to redo).
 
--- things start to go off the rails here --
+__Week 6__: Strings and Regex
+* M 11/2: Stings 
+* W 11/4: Regex
+* L 11/4: Strings + Regex tools
 
-__Week 6__: R Programming
-* M 11/2: Programming 1 (functions, if/else).
-* W 11/4: Programming 2 (iteration).
-* L 11/4: ??
-* Assignment 6.
-
-__Week 7__: Data From the Web
-* M 11/9: APIs.
-* W 11/11: Webscraping.
+__Week 7__: Programming
+* M 11/9: Programming 1 (functions, if/else)..
+* W 11/11: Programming 2 (iteration)
 * L 11/11: Twitter API.
-* Assignment 7.
+* Assignment 6 (UPR)
 
-__Week 8__: Text Analysis
-* M 11/16: Text analysis 1.
-* W 11/18: Text analysis 2.
-* L 11/18: More text analysis.
+__Week 8__: Data From the Web
+* M 11/16: APIs.
+* W 11/18: Webscraping.
+* L 11/18: Twitter API
+* Assignment 7 (Webscraping)
 
-__Week 9__: Strings and Regex,
-* M 11/23: 
-* W 11/25  
+__Week 9__: Text Analysis.
+* M 11/23: Text analysis 1.
+* W 11/25:  Text analysis 2.
 * L 11/25 [Day before TG]:
 
 __Week 10__: Geospatial? Supervised Learning? Pick Your Own Adventure?
