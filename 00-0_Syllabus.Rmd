@@ -125,7 +125,7 @@ We will use [Piazza](piazza.com/uchicago/fall2020/plsc31101/home) for communicat
 
 Find our Piazza class signup link at: http://piazza.com/uchicago/fall2020/plsc31101
 
-#### Computer Requirements and Software {-}
+#### Tech Requirements and Software {-}
 
 See [Install Page](installation) page for detailed information on the software we'll be using. Please download and install the required software before the first class. 
 
