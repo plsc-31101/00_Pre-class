@@ -1,7 +1,7 @@
 ---
-title: "R Basics"
+title: "Tech Requirements"
 author: "PLSC 31101"
-date: "Fall 2019"
+date: "Fall 2020"
 output: html_document
 ---
 
@@ -9,17 +9,15 @@ output: html_document
 
 To participate in PLSC 31101, you will need access to the software described below. 
 
-Once you have installed all of the software below, test your installation by following the instructions at the bottom of this page.
-
 ##  R
 
 [R](http://www.r-project.org/) is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. 
 
-To download R, go to [CRAN](https://cran.r-project.org/) (the **C**omprehensive **R** **A**rchive **N**etwork).
+For this class, please install **R Version 3.6.3**. You'll notice that this is not the most recent version, but it is more stable than the newer 4.0. 
 
-A new major version of R comes out once a year, and there are 2-3 minor releases each year. It is a good idea to update regularly. Upgrading can be a bit of a hassle, especially for major versions, which require you to reinstall all your packages, but putting it off only makes it worse.
+If you use a Mac, this will require at least 10.11 (El Capitan) as your OS. If you use a PC, anything Windows 7 or later will be sufficient.
 
-For this class, please install R Version 3.6.3. You will notice that this is not the most recent version, but it is more stable than the newer 4.0. If you use a Mac, this will require at least 10.11 (El Capitan) as your OS; if you use a PC, anything Windows 7 or later will be sufficient.
+To download R, go to [CRAN](https://cran.r-project.org/) (the **C**omprehensive **R** **A**rchive **N**etwork). Ensure that you download **R Version 3.6.3**.
 
 ## RStudio
 
@@ -29,26 +27,11 @@ To interact with R, we use RStudio. Please install the latest desktop version of
 
 You will also need to install some R packages. An R package is a collection of functions, data, and documentation that extends the capabilities of base R. Using packages is key to the successful use of R. 
 
-Many of the packages that you will learn in this class are part of the so-called `tidyverse`. The packages in the `tidyverse` share a common philosophy of data and R programming and are designed to work together naturally.
+Many of the packages that you will learn in this class are part of the so-called `tidyverse`. The packages in the `tidyverse` share a common philosophy of data and R programming, and are designed to work together naturally.
 
-You can install the complete tidyverse with a single line of code in RStudio:
+**To install packages, open RStudio. Go to Tools > Install Packages.** Enter the following: `tidyverse, knitr, gapminder, rtweet, kableExtra, devtools, tm, wordcloud, matrixStats, SnowballC, tidytext, textdata, stm, readtext`
 
-```{r eval = F}
-install.packages("tidyverse")
-```
-
-On your own computer, type that line of code in the RStudio console and then press enter to run it. R will download the packages from CRAN and install them on to your computer. If you have problems installing, make sure that you are connected to the internet and that https://cloud.r-project.org/ is not blocked by your firewall or proxy.
-
-We will also be requiring a few other important packages. Run the following line of code to download all of them at once:
-
-```{r eval = F}
-install.packages("rmarkdown", "knitr", "gapminder", 
-                 "stargazer", "rtweet", "kableExtra",
-                 "nycflights13", "devtools", "tm", "wordcloud",
-                 "matrixStats", "SnowballC", "tidytext",
-                 "textdata", "stm")
-```
- 
+If you have problems installing packages, make sure that you are connected to the internet, and that https://cloud.r-project.org/ isn’t blocked by your firewall or proxy. If RStudio returns an error message, go to "Preferences" and check the "Packages" section. Under "CRAN Mirror," if no mirror is selected, choose "Global (CDN) - RStudio". 
 ## LaTeX
 
 In order to knit R Markdown files to PDF files, you need to install some version of LaTeX. For students who have not installed LaTeX before, we recommend that you install TinyTeX (https://yihui.name/tinytex/).
@@ -60,67 +43,37 @@ install.packages("tinytex")
 tinytex::install_tinytex() 
 ```
 
-## The Bash Shell
-
-Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
-
-#### Windows {-}
-
-Install Git for Windows by downloading and running the [installer](http://msysgit.github.io/). This will provide you with both Git and Bash in the Git Bash program. **NOTE**: on the ~6th step of installation, you will need to select the option "Use Windows' default console window" rather than the default of "Use MinTTY" in order for nano to work correctly.
-
-After the installer does its thing, it leaves the window open so that you can play with the "Git Bash."
-
-Chances are that you want to have an easy way to restart that Git Bash. You can install shortcuts in the start menu, on the desktop, or in the QuickStart bar by calling the script /share/msysGit/add-shortcut.tcl (call it without parameters to see a short help text).
-
-#### Mac OS X {-}
-
-The default shell in all versions of Mac OS X is Bash, so no need to install anything. You access Bash from the Terminal (found in `/Applications/Utilities`). You may want to keep Terminal in your dock for this class.
-
-#### Linux {-}
-
-The default shell is usually Bash, but, if your machine is set up differently, you can run it by opening a terminal and typing bash. There is no need to install anything.
-
 ## Git
 
-Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. You will need a supported web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
+Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on github.com. 
 
-#### Windows {-}
+Download git here: https://git-scm.com/downloads.
 
-Git should be installed on your computer as part of your Bash install (described above).
+After installing Git, there will not be anything in your `/Applications` folder, as Git is a command line program.
 
-#### Mac OS X {-}
+## Google Chrome
 
-**For OS X 10.9 and higher**, install Git for Mac by downloading and running the most recent "mavericks" installer from [this list](http://sourceforge.net/projects/git-osx-installer/files/). After installing Git, there will not be anything in your `/Applications` folder, as Git is a command line program. **For older versions of OS X (10.5-10.8)**, use the most recent available installer labelled "snow-leopard" available [here](http://sourceforge.net/projects/git-osx-installer/files/).
+You will need to have a modern web browser installed to perform some of the tasks in this class. The recommended browser for this class is [Google Chrome](https://www.google.co.uk/intl/en_uk/chrome/).
 
-#### Linux {-}
+## Selector Gadget
 
-If Git is not already available on your machine, you can try to install it via your distro's package manager. For Debian/Ubuntu, run sudo apt-get install git; for Fedora, run sudo yum install git.
+As part of the webscraping process, you will need to examine HTML elements in your data. In this class we will be using [Selector Gadget](https://selectorgadget.com/) for this purpose.
+
+If using Google Chrome, you can simply install the [Selector Gadget Chrome extension](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en). If for any reason you can't use Chrome extensions (including on Chrome itself), you can instead install selector gadget by following the instructions on the [Selector Gadget website](https://selectorgadget.com/).
 
 ## Other Helpful Tools
 
-While not required, I recommend you install the following tools:
+While not required, I recommend you install the following tools: 
 
-1. [Google Chrome](https://www.google.com/chrome/) is an up-to-date web browser. 
+1. [Sublime Text](https://www.sublimetext.com/3) is a free, advanced text editor. 
 
-2. [Sublime Text](https://www.sublimetext.com/3) is a free, advanced text editor. 
-
-## Testing Your Installation
+## Troubleshooting
 
 If you have trouble with installation, please come to the Installfest on **Wednesday, September 30 from 9:30 am to 11:30 am, on Zoom**.
 
-Open a command line window ('terminal' or, on windows, 'git bash') and enter the following commands (without the $ sign): 
-
-```bash
-$ R --version
-$ git --version
-```
-
-If everything has been installed correctly, those commands *should* print output version information. 
-
-**NB**: If you are using Git Bash, the `R --version` command may not work. In this case, just make sure you can open up RStudio.
-
 Software Carpentry maintains a list of common issues that occur during installation that may be useful for our class here: [Configuration Problems and Solutions wiki page.](https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions)
 
-Credit: Thanks to [Software Carpentry](http://software-carpentry.org/workshops/) for providing installation guidelines.
+If you still have difficulties installing, please post an question on Piazza with details on what you're trying to install, what actions you took, any error messages, etc.
+
 
 

@@ -11,12 +11,12 @@ output: pdf_document
 
 * TA: Pete Cuppernull, pcuppernull@uchicago.edu
 
-* Time: Monday and Wednesdays, 1:30 pm – 2:50 pm
+* Time: Monday and Wednesdays, 1:30 pm – 3:10 pm
 
-* Lab: Wednesdays, 3:00pm - 4:20pm
+* Lab: Wednesdays, 04:10 PM-05:30 PM
 
 * Office hours:
-	* Rochelle Terman: TBD  Sign up here: https://www.wejoinin.com/sheets/offrq
+	* Rochelle Terman: TBD 
 	* Pete Cuppernull: TBD
 
 ## Course Description
@@ -53,7 +53,7 @@ This is a graded class based on the following:
 
 #### Assignments {-}
 
-Assignments will be assigned at the end of every Thursday session. They will be due one week later, unless otherwise noted. The assignments are intended to expand upon the lecture material and to help students develop the actual skills that will be useful for applied work. The assignments will be frequent, but each of them should be fairly short.
+The assignments are intended to expand upon the lecture material and to help students develop the actual skills that will be useful for applied work. The assignments will be frequent, but each of them should be fairly short.
 
 You are encouraged to work in groups, but the work you turn in must be your own. It is not acceptable to submit homework as a group or to turn in copies of the same code or output. While you are encouraged to use the internet to help you debug, do not copy and paste large chunks of code that you do not understand. Remember, the only way you actually learn how to write code is by writing code!
 
@@ -66,7 +66,7 @@ The class participation portion of the grade can be satisfied in one or more of 
 * Attending the lectures.
 * Asking and answering questions in class.
 * Attending office hours.
-* Contributing to class discussion through the Canvas/Piazza site.
+* Contributing to class discussion on the Piazza site.
 * Collaborating with the computing community by attending a workshop or meetup, submitting a pull request to a GitHub repository (including the class repository), answering a question on StackExchange, or other involvement in the social computing/digital humanities community. 
 
 #### Final Project {-}
@@ -77,11 +77,11 @@ Students have two options for class projects:
 
 2. __Tool project__: Create a tutorial on a tool we did not cover in class. Ideas include: Bash, LaTeX, pandoc, quanteda, tidytext, etc. Post it on GitHub.
 
-Students are required to write a short proposal by __November 5__ (no more than 2 paragraphs) in order to get approval/feedback from the instructors. 
+Students are required to write a short proposal by __November 6__ (no more than 2 paragraphs) in order to get approval/feedback from the instructors. 
 
-Project materials (i.e., a GitHub repository) will be due by end of day on __December 7__. We will specify submission details in class.
+Project materials (i.e., a GitHub repository) will be due by end of day on __December 10__. We will specify submission details in class.
 
-On __December 8__, we will have a **lightning talk session** where students can present their projects in a maximum 5-minute talk.
+On __December 11 (1:30-3:30)__, we will have a **lightning talk session** where students can present their projects in a maximum 5-minute talk.
 
 #### Late Policy and Incompletes {-}
 All deadlines are strict. Late assignments will be dropped a full letter grade for each 24 hours past the deadline. Exceptions will be made for students with a documented emergency or illness.
@@ -93,38 +93,45 @@ I follow a zero-tolerance policy on all forms of academic dishonesty. All studen
 
 ## Activities and Materials
 
-#### Course Structure {-}
+#### Class Format and Zoom {-}
 
-Classes will follow a "workshop" style, combining lecture, demonstration, and coding exercises. We envision the class to be as interactive/hands-on as possible, with students programming every session. __You must bring a laptop to class.__ 
+All classes and discussion sections will be held remotely on Zoom at this link:  https://uchicago.zoom.us/j/92579198152?pwd=SzJPSzFyNVpIQm14ZlhJQnJrdDhMUT09
+
+Classes will follow a "workshop" style, combining lecture, demonstration, and coding exercises. We envision the class to be as interactive/hands-on as possible, with students programming every session. 
 
 It is important that students __complete the requisite reading__ before class. I anticipate spending 1/2 the class lecturing and 1/2 practicing with code challenges. 
 
-#### Course Website {-}
+#### Course Notes and Code {-}
 
-All course notes will be posted on https://plsc-31101.github.io/course/, including class notes, code demonstrations, sample data, and assignments. Students will be assigned reading from these notes before every class.
+All materials will be available on GitHub, including class notes, code demonstrations, sample data, etc.
 
-Students are encouraged to submit pull requests to the course repository (https://github.com/plsc-31101/course), for example if they find a typo or a particularly helpful resource that would aid other students. 
+Download the materials on your computer by running the following code in RStudio. Note that for this to work, you will need to have installed tidyverse installed.
 
-Students projects will also be shared on the course website. 
+```{r eval = F}
+# install tidyverse if you haven't already done so.
+install.packages("tidyverse")
 
-#### Canvas {-}
+library("usethis")
+use_course("plsc-31101/TBD") # fix me
+```
 
-We will use Canvas for communication (announcements and questions) and turning in assignments. 
+These materials are also available on this website: https://plsc-31101.github.io/course/. Students will be assigned reading from these notes before every class.
 
-You should ask questions about class material and assignments through the Canvas/Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
+#### Canvas and Piazza {-}
+
+We will use Canvas for turning in assignments. 
+
+We will use [Piazza](piazza.com/uchicago/fall2020/plsc31101/home) for communication (announcements and questions). You should ask questions about class material and assignments through the Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
+
+Find our Piazza class signup link at: http://piazza.com/uchicago/fall2020/plsc31101
 
 #### Computer Requirements and Software {-}
 
-By the end of the first week, you should install the following software on your computer:
+See [Install Page](installation) page for detailed information on the software we'll be using. Please download and install the required software before the first class. 
 
-* Access to the UNIX command line (e.g., a Mac laptop, a Bash wrapper on Windows).
-* Git.
-* R and RStudio (latest versions).
+We will be having an __InstallFest on Wednesday, September 30 from 9:30 to 11:30 am, on Zoom__ for those students experiencing difficulties downloading and installing the requisite software. 
 
-This requires a computer that can handle all this software. Almost any Mac will do the job. Most Windows machines are fine too if they have enough space and memory.
-
-See [Install Page](installation) for more information. We will be having an __InstallFest on Wednesday, September 30 from 9:30 to 11:30 am, on Zoom__ for those students experiencing difficulties downloading and installing the requisite software. 
-
+If you have difficulties installing, please post an question on Piazza with details on what you're trying to install, what actions you took, any error messages, etc.
 
 ## Curriculum Outline/Schedule
 
@@ -132,30 +139,26 @@ __Week 1__: Intro
 * M (No Class).
 * W 9/30: Intro, R Tools.
 * L 9/30: Rmarkdown + Homework.
-* Assignment 1 (R Markdown).
 
 __Week 2__: Working with Data in R
 * M 10/5: R Syntax/coding basics.
-* W 10/7: Intro to data, basic summaries, Dplyr.
+* W 10/7: Introduction to data, data transformation with `dplyr`.
 * L 10/7: Workflow (scripts, projects, paths, import/export).
 
 __Week 3__: Data Munging
-* M 10/12: tidyr.
-* W 10/14: Relational data.
-* L 10/14: Review.
-* Assignment 4 (dplyr, tidyr, relational).
+* M 10/12: Tidying data with `tidyr`.
+* W 10/14: Relational data and joins.
+* L 10/14: 
 
 __Week 4__: Visualization
-* M 10/19: Base plots, ggplot.
+* M 10/19: Base plots, `ggplot`.
 * W 10/21: Working with statistical models.
-* L 10/21: Review.
-* Assignment 5 (visualization).
+* L 10/21: 
 
 __Week 5__: Base R: Data Structures, Vectors, Factors
 * M 10/26: Data structures 1.
 * W 10/28: Data structures 2 (subsettings etc.).
 * L 10/28: 
-* Assignment 2-3 (will likely have to redo).
 
 __Week 6__: Strings and Regex
 * M 11/2: Stings 
@@ -165,25 +168,22 @@ __Week 6__: Strings and Regex
 __Week 7__: Programming
 * M 11/9: Programming 1 (functions, if/else)..
 * W 11/11: Programming 2 (iteration)
-* L 11/11: Twitter API.
-* Assignment 6 (UPR)
+* L 11/11: 
 
 __Week 8__: Data From the Web
 * M 11/16: APIs.
 * W 11/18: Webscraping.
 * L 11/18: Twitter API
-* Assignment 7 (Webscraping)
 
 __Week 9__: Text Analysis.
 * M 11/23: Text analysis 1.
 * W 11/25:  Text analysis 2.
-* L 11/25 [Day before TG]:
+* L 11/25
 
-__Week 10__: Geospatial? Supervised Learning? Pick Your Own Adventure?
+__Week 10__: TBD.
 * M 11/30
 * W 12/2 
 * L 12/2  
 
 __Week 11__ -- FINALS
-* M 12/7
-* W 12/9
+* FRIDAY 12/11, 1:30 PM-3:30 PM
