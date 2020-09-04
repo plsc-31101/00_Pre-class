@@ -140,7 +140,7 @@ __Week 1__: Intro
 * W 9/30: Intro, R Tools.
 * L 9/30: Rmarkdown + Homework.
 
-__Week 2__: Working with Data in R
+__Week 2__: Working with Data
 * M 10/5: R Syntax/coding basics.
 * W 10/7: Introduction to data, data transformation with `dplyr`.
 * L 10/7: Workflow (scripts, projects, paths, import/export).
@@ -151,23 +151,23 @@ __Week 3__: Data Munging
 * L 10/14: 
 
 __Week 4__: Visualization
-* M 10/19: Base plots, `ggplot`.
-* W 10/21: Working with statistical models.
-* L 10/21: 
+* M 10/19: `ggplot`.
+* W 10/21: Factors and models.
+* L 10/21: More about statistical models.
 
-__Week 5__: Base R: Data Structures, Vectors, Factors
-* M 10/26: Data structures 1.
-* W 10/28: Data structures 2 (subsettings etc.).
-* L 10/28: 
+__Week 5__: R Objects and Indexing
+* M 10/26: Vectors
+* W 10/28: Lists and Dataframes
+* L 10/28: Putting it all together: Implications for Dataframes
 
-__Week 6__: Strings and Regex
-* M 11/2: Stings 
+__Week 6__: Strings and Dates
+* M 11/2: Stings
 * W 11/4: Regex
-* L 11/4: Strings + Regex tools
+* L 11/4: Dates and Times
 
-__Week 7__: Programming
-* M 11/9: Programming 1 (functions, if/else)..
-* W 11/11: Programming 2 (iteration)
+__Week 7__: Programming in R
+* M 11/9: Functions and Conditionals
+* W 11/11: Iteration
 * L 11/11: 
 
 __Week 8__: Data From the Web
