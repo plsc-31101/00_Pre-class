@@ -11,9 +11,9 @@ output: pdf_document
 
 * TA: Pete Cuppernull, pcuppernull@uchicago.edu
 
-* Time: Monday and Wednesdays, 1:30 pm – 3:10 pm
+* Time: Mondays and Wednesdays, 1:30 pm – 3:10 pm
 
-* Lab: Wednesdays, 04:10 PM-05:30 PM
+* Lab: Wednesdays, 04:10 pm - 05:30 pm
 
 * Office hours:
 	* Rochelle Terman: TBD 
@@ -21,7 +21,7 @@ output: pdf_document
 
 ## Course Description
 
-The purpose of this course is to provide graduate students with the critical computing skills necessary to conduct research in quantitative/computational social science. This course is not an introduction to statistics, computer science, or specialized social science methods. Rather, the focus will be on practical skills necessary to be successful in further methods work. The first portion of the class introduces students to basic computer literacy, terminologies, and the R programming language. The second part of the course provides students the opportunity to use the skills they learned in part 1 towards practical applications such as webscraping, data collection through APIs, automated text analysis, etc. We will assume no prior experience with programming or computer science.
+The purpose of this course is to provide graduate students with the critical computing skills necessary to conduct research in quantitative/computational social science. This course is not an introduction to statistics, computer science, or specialized social science methods. Rather, the focus will be on practical skills necessary to be successful in further methods work. The first portion of the class introduces students to basic computer literacy, terminologies, and the R programming language. The second part of the course provides students with the opportunity to use the skills they learned in part 1 towards practical applications such as webscraping, data collection through APIs, automated text analysis, etc. We will assume no prior experience with programming or computer science.
 
 #### Objectives {-}
 
@@ -39,7 +39,7 @@ By the end of the course, students should be able to
 
 ## Who Should Take This Course
 
-This course is designed for Political Science Graduate students, but any graduate student is welcome. We will not presume any prior programming or computer science experience.
+This course is designed for Political Science graduate students, but any graduate student is welcome. We will not presume any prior programming or computer science experience.
 
 ## Requirements and Evaluation
 
@@ -81,7 +81,7 @@ Students are required to write a short proposal by __November 6__ (no more than 
 
 Project materials (i.e., a GitHub repository) will be due by end of day on __December 10__. We will specify submission details in class.
 
-On __December 11 (1:30-3:30)__, we will have a **lightning talk session** where students can present their projects in a maximum 5-minute talk.
+On __December 11 (1:30 pm - 3:30 pm)__, we will have a **lightning talk session** where students can present their projects in a maximum 5-minute talk.
 
 #### Late Policy and Incompletes {-}
 All deadlines are strict. Late assignments will be dropped a full letter grade for each 24 hours past the deadline. Exceptions will be made for students with a documented emergency or illness.
@@ -105,40 +105,40 @@ It is important that students __complete the requisite reading__ before class. I
 
 All materials will be available on GitHub, including class notes, code demonstrations, sample data, etc.
 
-Download the materials on your computer by running the following code in RStudio. Note that for this to work, you will need to have installed tidyverse installed.
+Download the materials on your computer by running the following code in RStudio. Note that for this to work, you will need to have tidyverse installed.
 
 ```{r eval = F}
-# install tidyverse if you haven't already done so.
+# Install tidyverse if you have not already done so.
 install.packages("tidyverse")
 
 library("usethis")
 use_course("plsc-31101/TBD") # fix me
 ```
 
-These materials are also available on this website: https://plsc-31101.github.io/course/. Students will be assigned reading from these notes before every class.
+Those materials are also available on this website: https://plsc-31101.github.io/course/. Students will be assigned readings from these notes before every class.
 
 #### Canvas and Piazza {-}
 
 We will use Canvas for turning in assignments. 
 
-We will use [Piazza](piazza.com/uchicago/fall2020/plsc31101/home) for communication (announcements and questions). You should ask questions about class material and assignments through the Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
+We will use [Piazza](piazza.com/uchicago/fall2020/plsc31101/home) for communication (announcements and questions). You should ask questions about class materials and assignments through the Piazza website so that everyone can benefit from the discussion. We encourage you to respond to each other’s questions as well. Questions of a personal nature can be emailed to us directly.
 
 Find our Piazza class signup link at: http://piazza.com/uchicago/fall2020/plsc31101
 
 #### Tech Requirements and Software {-}
 
-See [Install Page](installation) page for detailed information on the software we'll be using. Please download and install the required software before the first class. 
+See the [Install Page](installation) page for detailed information on the software we will be using. Please download and install the required software before the first class. 
 
-We will be having an __InstallFest on Wednesday, September 30 from 9:30 to 11:30 am, on Zoom__ for those students experiencing difficulties downloading and installing the requisite software. 
+We will be having an __InstallFest on Wednesday, September 30 from 9:30 am to 11:30 am, on Zoom__ for those students experiencing difficulties downloading and installing the requisite software. 
 
-If you have difficulties installing, please post an question on Piazza with details on what you're trying to install, what actions you took, any error messages, etc.
+If you have difficulties installing, please post a question on Piazza with details on what you are trying to install, what actions you took, any error messages, etc.
 
 ## Curriculum Outline/Schedule
 
 __Week 1__: Intro
 * M (No Class).
 * W 9/30: Intro, R Tools.
-* L 9/30: Rmarkdown + Homework.
+* L 9/30: R Markdown + Homework.
 
 __Week 2__: Working with Data
 * M 10/5: R Syntax/coding basics.
@@ -156,24 +156,24 @@ __Week 4__: Visualization
 * L 10/21: More about statistical models.
 
 __Week 5__: R Objects and Indexing
-* M 10/26: Vectors
-* W 10/28: Lists and Dataframes
-* L 10/28: Putting it all together: Implications for Dataframes
+* M 10/26: Vectors.
+* W 10/28: Lists and dataframes.
+* L 10/28: Putting it all together: Implications for dataframes.
 
 __Week 6__: Strings and Dates
-* M 11/2: Stings
-* W 11/4: Regex
-* L 11/4: Dates and Times
+* M 11/2: Strings.
+* W 11/4: Regex.
+* L 11/4: Dates and times.
 
 __Week 7__: Programming in R
-* M 11/9: Functions and Conditionals
-* W 11/11: Iteration
+* M 11/9: Functions and conditionals.
+* W 11/11: Iteration.
 * L 11/11: 
 
 __Week 8__: Data From the Web
 * M 11/16: APIs.
 * W 11/18: Webscraping.
-* L 11/18: Twitter API
+* L 11/18: Twitter API.
 
 __Week 9__: Text Analysis.
 * M 11/23: Text analysis 1.
