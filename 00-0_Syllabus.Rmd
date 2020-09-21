@@ -11,9 +11,11 @@ output: pdf_document
 
 * TA: Pete Cuppernull, pcuppernull@uchicago.edu
 
-* Time: Mondays and Wednesdays, 1:30 pm – 3:10 pm
+* Time: Mondays and Wednesdays, 1:50 pm – 3:30 pm
 
 * Lab: Wednesdays, 04:10 pm - 05:30 pm
+
+* Zoom link:  https://uchicago.zoom.us/j/92579198152?pwd=SzJPSzFyNVpIQm14ZlhJQnJrdDhMUT09
 
 * Office hours:
 	* Rochelle Terman: Fridays, 10:00am - 12:00pm (sign up [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU15RV92YzJrVDNDfGRlZmF1bHR8NjcyM2ZhMGM4ODIwMGIxYTZmYjdmZDE1NzhiOGM0OGI).) 
