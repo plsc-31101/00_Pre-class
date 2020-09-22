@@ -155,12 +155,12 @@ __Week 3__: Data Munging
 __Week 4__: Visualization
 * M 10/19: `ggplot`.
 * W 10/21: Factors and models.
-* L 10/21: More about statistical models.
+* L 10/21: 
 
 __Week 5__: R Objects and Indexing
 * M 10/26: Vectors.
 * W 10/28: Lists and dataframes.
-* L 10/28: Putting it all together: Implications for dataframes.
+* L 10/28: 
 
 __Week 6__: Strings and Dates
 * M 11/2: Strings.
