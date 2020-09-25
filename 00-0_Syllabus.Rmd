@@ -138,54 +138,65 @@ If you have difficulties installing, please post a question on Piazza with detai
 ## Curriculum Outline/Schedule
 
 __Week 1__: Intro
-* M (No Class).
-* W 9/30: Intro, R Tools.
-* L 9/30: R Markdown + Homework.
+
+  * M (No Class).
+  * W 9/30: Intro, R Tools.
+  * L 9/30: R Markdown + Homework.
 
 __Week 2__: Working with Data
-* M 10/5: R Syntax/coding basics.
-* W 10/7: Introduction to data, data transformation with `dplyr`.
-* L 10/7: Workflow (scripts, projects, paths, import/export).
+
+  * M 10/5: R Syntax/coding basics.
+  * W 10/7: Introduction to data, data transformation with `dplyr`.
+  * L 10/7: Workflow (scripts, projects, paths, import/export).
 
 __Week 3__: Data Munging
-* M 10/12: Tidying data with `tidyr`.
-* W 10/14: Relational data and joins.
-* L 10/14: 
+
+  * M 10/12: Tidying data with `tidyr`.
+  * W 10/14: Relational data and joins.
+  * L 10/14: 
 
 __Week 4__: Visualization
-* M 10/19: `ggplot`.
-* W 10/21: Factors and models.
-* L 10/21: 
+
+  * M 10/19: `ggplot`.
+  * W 10/21: Factors and models.
+  * L 10/21: 
 
 __Week 5__: R Objects and Indexing
-* M 10/26: Vectors.
-* W 10/28: Lists and dataframes.
-* L 10/28: 
+
+  * M 10/26: Vectors.
+  * W 10/28: Lists and dataframes.
+  * L 10/28: 
 
 __Week 6__: Strings and Dates
-* M 11/2: Strings.
-* W 11/4: Regex.
-* L 11/4: Dates and times.
+
+  * M 11/2: Strings.
+  * W 11/4: Regex.
+  * L 11/4: Dates and times.
 
 __Week 7__: Programming in R
-* M 11/9: Functions and conditionals.
-* W 11/11: Iteration.
-* L 11/11: 
+
+  * M 11/9: Functions and conditionals.
+  * W 11/11: Iteration.
+  * L 11/11: 
 
 __Week 8__: Data From the Web
-* M 11/16: APIs.
-* W 11/18: Webscraping.
-* L 11/18: Twitter API.
+
+  * M 11/16: APIs.
+  * W 11/18: Webscraping.
+  * L 11/18: Twitter API.
 
 __Week 9__: Text Analysis.
-* M 11/23: Text analysis 1.
-* W 11/25:  Text analysis 2.
-* L 11/25
+
+  * M 11/23: Text analysis 1.
+  * W 11/25:  Text analysis 2.
+  * L 11/25
 
 __Week 10__: TBD.
-* M 11/30
-* W 12/2 
-* L 12/2  
+
+  * M 11/30
+  * W 12/2 
+  * L 12/2  
 
 __Week 11__ -- FINALS
-* FRIDAY 12/11, 1:30 PM-3:30 PM
+
+  * FRIDAY 12/11, 1:30 PM-3:30 PM
